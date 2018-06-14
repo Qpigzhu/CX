@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	z-index: 1200px;
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+
+}
+.glyphicon glyphicon-home{
+	text-align: center;
+}
+#logo{
+	position: absolute;
+	left: -10px;
+	top: -11px;
+    width: 80px;
+    height: 60px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 19px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header .user-info .user-avatar {
+
+    display: block;
+    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 10px;
+    width: 56px;
+    height: 100%;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 5px solid #666;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.navbar-right {
+    position: absolute;
+    right: 40px;
+    margin-right: -15px;
+}
+.user-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    padding: 15px 26px 5px;
+    text-align: center;
+}
+#img1{
+
+	width: 50px;
+	height: 50px;
+}
+.header form .submit {
+    display: inline-block;
+    position: absolute;
+    left: 510px;
+    top: 6px;
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 30px;
+    background-image: 
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAQlBMV…lAPIaWAsB6KGsWyprFKvVsa5HbqIxmUAYzJGN4mTv/nje3wQeTZXOUBwAAAABJRU5ErkJggg==);
+    cursor: pointer;
+    }
+.xiecheng{
+	font-weight: bold;
+}
+.img
+	{
+	margin-top: -22px;
+	width: 100%;
+	z-index: 1200px;
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+
+.menubt {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+.menu {
+    margin: auto;
+    width: 960px;
+}
+.img ul {
+    width: 2000px;
+    overflow: hidden;
+    white-space:nowrap; 
+    display: block;
+    overflow: hidden;
+    white-space:nowrap; 
+    position: relative;
+    right: 100px;                               
+}
+.img li{
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+    width: 130px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    width: 130px;
+}

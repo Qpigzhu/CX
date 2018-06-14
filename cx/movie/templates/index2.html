@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block body %}
+
+
+
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-3"></div>
+    <div class="col-sm-6 col-md-4 col-lg-3 ">
+        <div id="myCarousel" class="carousel slide" style="width:270px;">
+           <!-- 轮播（Carousel）指标 -->
+           <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               {% for movies in movie %}
+              <li data-target="#myCarousel" data-slide-to="{{ movies.id }}"></li>
+               {% endfor %}
+           </ol>
+           <!-- 轮播（Carousel）项目 -->
+           <div class="carousel-inner">
+
+              <div class="item active">
+                 <img src="{{ movie_tops.poster_url_me }}" alt="First slide" class="img-responsive">
+                 <div class="carousel-caption">{{ movie_tops.name }}</div>
+              </div>
+            {% for movies in movie %}
+              <div class="item">
+                 <img src="{{ movies.poster_url_me }}" alt="Second slide" class="img-responsive">
+                 <div class="carousel-caption">{{ movies.name }}</div>
+              </div>
+            {% endfor %}
+           </div>
+           <!-- 轮播（Carousel）导航 -->
+           <a class="carousel-control left" href="#myCarousel"
+              data-slide="prev">&lsaquo;</a>
+           <a class="carousel-control right" href="#myCarousel"
+              data-slide="next">&rsaquo;</a>
+        </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
